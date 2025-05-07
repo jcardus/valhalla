@@ -1,7 +1,7 @@
 services:
   valhalla:
     container_name: valhalla_gis-ops
-    image: ghcr.io/nilsnolde/docker-valhalla/valhalla:latest
+    image: ghcr.io/gis-ops/docker-valhalla/valhalla:latest
     ports:
       - "8002:8002"
     volumes:

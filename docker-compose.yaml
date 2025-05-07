@@ -1,0 +1,9 @@
+services:
+  valhalla:
+    container_name: valhalla_gis-ops
+    image: ghcr.io/nilsnolde/docker-valhalla/valhalla:latest
+    ports:
+      - "8002:8002"
+    volumes:
+      - ./data:/custom_files
+    restart: unless-stopped

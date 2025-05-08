@@ -8,6 +8,8 @@ echo "Downloading .pbf files..."
 #wget -nc -O data/chile.pbf https://download.geofabrik.de/south-america/chile-latest.osm.pbf || true
 #wget -nc -O data/portugal.pbf https://download.geofabrik.de/europe/portugal-latest.osm.pbf || true
 wget -nc -O data/gcc.pbf https://download.geofabrik.de/asia/gcc-states-latest.osm.pbf || true
-wget -nc -O data/morocco.pbf https://download.geofabrik.de/africa/morocco-latest.osm.pbf || true
+wget -nc -O data/morocco.pbf https://download.openstreetmap.fr/extracts/africa/morocco-latest.osm.pbf || true
+
+https://download.geofabrik.de/africa/morocco-latest.osm.pbf
 
 docker compose up -d
